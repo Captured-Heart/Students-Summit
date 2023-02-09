@@ -226,6 +226,52 @@ strong {
 /*---------------------------------------
   SECTION               
 -----------------------------------------*/
+
+/* POP UP CUSTOMIZATIONS BEGINS HERE*/
+.popup {
+  background-color: #ffffff;
+  width: 420px;
+  padding: 30px 40px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  display: none;
+  text-align: center;
+  /* margin: 50px; */
+  /* margin-right: 50px; */
+}
+
+.popup button {
+  display: block;
+  margin: 0 0 10px auto;
+  background-color: transparent;
+  font-size: 25px;
+  color: #ffffff;
+  background: var(--custom-btn-bg-color);
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup h3 {
+  margin-top: -20px;
+}
+
+.popup p {
+  font-size: 15px;
+  text-align: justify;
+  margin: 10px 0;
+  line-height: 25px;
+}
+
+/* POP UP CUSTOMIZATIONS ENDS HERE*/
+
 .section-padding {
   padding-top: 100px;
   padding-bottom: 100px;
